@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bolita.App">
+    <!--
+        Define global resources and styles here, that apply to all pages in your app.
+    -->
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#453BC9</Color>
+            <Color x:Key="Secondary">#FF5A58</Color>
+            <Color x:Key="PrimaryText">#FFFFFF</Color>
+            <Color x:Key="SecondaryText">#A29DDB</Color>
+
+            <Style x:Key="PrimaryButton" TargetType="Button" >
+                <Setter Property="BorderRadius" Value="7"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="WidthRequest" Value="60"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+            </Style>
+        
+        </ResourceDictionary>        
+    </Application.Resources>
+</Application>
